@@ -1,0 +1,92 @@
+* {
+  font-family: FontAwesome, Jetbrains mono;
+	background-image: none;
+	transition: 20ms;
+	box-shadow: none;
+}
+
+window {
+	background: transparent;
+	background-size: cover;
+}
+
+button {
+	color: #FFFFFF;
+  font-size:20px;
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	border-style: solid;
+	background-color: #282828;
+	border: 3px solid #FABD2F;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:focus,
+button:active,
+button:hover {
+  color: #FFFFFF;
+	background-color: #1d2021;
+	border: 3px solid @color11;
+}
+
+/* 
+----------------------------------------------------- 
+Buttons
+----------------------------------------------------- 
+*/
+
+#lock {
+	margin: 5px;
+	border-radius: 0px;
+  background-image: url("./assets/lock-alt.png");
+}
+#lock:hover {
+  background-image: url(".assets/lock.png");
+}
+
+#logout {
+	margin: 5px;
+	border-radius: 0px;
+  background-image: url("./assets/logout-alt.png");
+
+}
+#logout:hover {
+  background-image: url("./assets/logout.png");  
+}
+
+#suspend {
+	margin: 5px;
+	border-radius: 0px;
+  background-image: url("./assets/sleep-alt.png");
+}
+#suspend:hover {
+  background-image: url("./assets/sleep.png");
+}
+
+#hibernate {
+	margin: 5px;
+	border-radius: 0px;
+  background-image: url("./assets/hibernate-alt.png");
+}
+#hibernate:hover {
+    background-image: url("./assets/hibernate.png");
+}
+
+#shutdown {
+	margin: 5px;
+	border-radius: 0px;
+  background-image: url("./assets/off.png");
+}
+#shutdown:hover {
+  background-image: url("./assets/power-off.svg");
+}
+
+#reboot {
+	margin: 5px;
+	border-radius: 0px;
+  background-image: url("./assets/restart-alt.png");
+}
+#reboot:hover {
+    background-image: url("./assets/restart.png"); 
+}
